@@ -1,0 +1,263 @@
+/*Rena Parlor CSS*/
+body{
+	padding 0;
+	margin: 0;
+}
+
+/*Section 1 | the intro */
+.section1{
+	height: 660px;
+	width: 100%;
+	background: #2d2c2c url("Rena Images/mainbg.jpg");
+}
+
+/*The menu*/
+.menu{
+	width: 100%;
+	height: 40;
+}
+.menu a{
+	font-family: segoe ui light;
+	text-decoration: none;
+	font-size: 15px;
+	color: #fff;
+	display: inline-grid;
+	margin-left: 20px;
+	position: relative;
+	top: 5px;
+	transition: .20s linear;
+}
+.menu a:hover{
+	color: #ffa800;
+}
+/*text ids*/
+#hid{
+	font-family: segoe ui light;
+	font-size: 45px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
+/*text content*/
+.content-placer{
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+
+
+/*Section 2 | about the author*/
+.section2{
+	width: 85%;
+	height: 500px;
+	background: #f70000 url("Rena Images/section2bg.jpg");
+	box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.7);
+	-moz-box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.7);
+}
+
+/*the text ids*/
+#mid{
+	font-family: segoe ui light;
+	font-size: 28.5px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+#nameid{
+	font-family: segoe ui light;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+#p-id{
+	font-family: segoe ui light;
+	text-align: left;
+	font-size: 14px;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	display: grid;
+}
+
+/*the content*/
+#imageorb{
+	width: 200px;
+	height: 200px;
+	background: url("Rena Images/face.jpg");
+	border-radius: 100%;
+	background-position: -100px, 0;
+}
+.content-holder{
+	margin-left: 150px;
+	margin-top: 50px;
+}
+#more-on-id{
+	font-family: segoe ui light;
+	width: 150px;
+	height: 40px;
+	background: #ff7000;
+	margin: 5;
+	padding: 5;
+	border: 0;
+	border-radius: 50px;
+	margin-top: 10px;
+	color: #fff;
+	transition: 0.20s linear;
+}
+#more-on-id:hover{
+	background: rgba(255,0,0,0.8);
+}
+
+
+/*Section-3*/
+.section3{
+	width: 100%;
+	height: 660px;
+	margin-top: 150px;
+	background: url("Rena Images/section3bg.jpg");
+}
+
+#imagebox{
+	width: 400px;
+	height: 500px;
+	display: inline-grid;
+	background: url("Rena Images/box3.jpg");
+	background-position: -100px -300px;
+	box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
+	-moz-box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
+	margin-left: 60px;
+	margin-top: 100px;
+}
+.word-content{
+	height: 500px;
+	margin-left: 60%;
+	position: relative;
+	bottom: 70%;
+}
+#nhid{
+	font-family: segoe ui light;
+	font-size: 40px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+#np-id{
+	font-family: segoe ui light;
+	text-align: left;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+}
+#service-list{
+	font-family: gadugi;
+	font-size: 15px;
+	color: #000;
+}
+
+
+
+/*Section 4 | Giving Rena Pralors contacts*/
+.section4{
+	width: 100%;
+	height: 600px;
+	background: url("Rena Images/section4bg.jpg");
+}
+#np-id2{
+	font-family: segoe ui light;
+	font-size: 20px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+}
+.tableposer{
+	margin-left: 70%;
+	margin-top: 5%;
+}
+.headerplacer{
+	margin-left: 65%;
+	padding-top: 10%;
+}
+.btn-placer{
+	margin-left: 75%;
+	margin-top: 3%;
+}
+
+
+/*---------section five code | where we are*/
+
+.section5{
+	background: url("Rena Images/section5bg.jpg");
+	width: 100%;
+	height: 600px;
+	margin-top: 320px;
+}
+#nl-id{
+	font-family: segoe ui;
+	font-size: 14px;
+	color: #000;
+}
+.location-poser{
+	margin-left: 60%;
+	padding-top: 10%;
+}
+
+/*section 6 | share and follow us*/
+.section6{
+	margin-top: 50px;
+	width: 100%;
+	height: 400px;
+	background: #3d8eb9;
+}
+
+/*Frome here is the author page css*/
+.more-on-div{
+	width: 500px;
+	height: 660px;
+	background-color: #004a7f;
+}
+#author-header{
+	font-family: century gothic, segoe ui light;
+	font-size: 35px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+.content-holder2{
+	padding-top: 20%;
+	margin-left: 10%;
+}
+.pholder{
+	width: 60%;
+	margin-top: 20px;
+}
+#p-id2{
+	font-family: Segoe ui light;
+	font-size: 14px;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	line-height: 2em;
+}
+/*//////////////////*/
+#np-id3{
+	font-family: Segoe ui light;
+	font-size: 14px;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	line-height: 2em;
+}
+.con-placer{
+	position: relative;
+	left: 40%;
+}
+.p-holder{
+	width: 30%;
+	margin-top: 20px;
+	height: 400px;
+}
