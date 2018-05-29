@@ -106,7 +106,7 @@ html {
 	text-align: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	margin-left: 10%;
+	margin-left: 1.8%;
 	margin-right: 5px;
 }
 #more-on-id{
@@ -131,6 +131,7 @@ html {
 /*Section-3*/
 .section3{
 	width: 100%;
+	height: 600px;
 	margin-top: 150px;
 	background: url("Rena Images/section3bg.jpg");
 }
@@ -179,7 +180,7 @@ html {
 .section4{
 	width: 100%;
 	height: 600px;
-	margin-top: 50px;
+	margin-top: 150px;
 	background: url("Rena Images/section4bg.jpg");
 }
 #np-id2{
@@ -293,10 +294,10 @@ html {
 .con-placer{
 	position: relative;
 	overflow: hidden;
-	width: 100%;
+	left: 40%;
 }
 .p-holder{
-	width: 30%;
+	width: 350px;
 	margin-top: 20px;
 	height: 400px;
 	overflow: hidden;
@@ -311,7 +312,6 @@ html {
 
 .the-services{
 	width: 100%;
-	height: 500px;
 	background: url("Rena Images/sec6bg.jpg");
 	margin-top: 80px;
 }
@@ -330,21 +330,50 @@ html {
 }
 /*spr line*/
 .pos-1{
+	width: 100%;
 	position: relative;
-	top: 13%;
+	top: 11%;
 }
 .pos-2{
-	position: relative;
-	left: 45%;
-	bottom: 20%;
 }
 .all-info{
 	margin-top: 100px;
 }
+.fep{
+	width: 100%;
+}
 #nhid-2{
 	font-family: segoe ui, century gothic;
-	font-size: 28px;
+	font-size: 36px;
 	color: #000;
 	padding: 0;
 	margin: 0;
+	margin-left: 1%;
+}
+/*where the info starts ~|~ fem*/
+#nsemi-header{
+	font-family: segoe ui light, century gothic;
+	font-size: 25px;
+	color: #000;
+	padding: 0;
+	margin: 2.5%;
+}
+#np-id3{
+	font-family: segoe ui, century gothic;
+	font-size: 15px;
+	color: #000;
+	padding: 0;
+	margin: 2.5%;
+}
+/*~|~ fepasn */
+#fepasn{
+	width: 100%;
+}
+/*~|~ mfes*/
+.mfes{
+	width: 100%;
+}
+/*~|~ wdaft*/
+.wdaft{
+	width: 100%;
 }
