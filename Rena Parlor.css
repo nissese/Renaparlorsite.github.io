@@ -1,4 +1,7 @@
 /*Rena Parlor CSS*/
+@import url('https://fonts.googleapis.com/css?family=Century+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Segoe+Ui+Light');
+@import url('https://fonts.googleapis.com/css?family=Segoe+Ui');
 body{
 	padding: 0;
 	margin: 0;
@@ -131,27 +134,15 @@ html {
 /*Section-3*/
 .section3{
 	width: 100%;
-	height: 600px;
+	height: 700px;
 	margin-top: 150px;
-	background: url("Rena Images/section3bg.jpg");
+	background: #910013;
+	overflow: hidden;
 }
-
-#imagebox{
-	width: 30%;
-	height: 500px;
+.two{
 	display: inline-grid;
-	background: url("Rena Images/box3.jpg");
-	background-position: -100px -300px;
-	box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
-	-webkit-box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
-	-moz-box-shadow: 3px 3px 29px 3px rgba(0,0,0,0.7);
-	margin-left: 60px;
-	margin-top: 100px;
-}
-.word-content{
-	margin-left: 60%;
-	position: relative;
-	bottom: 70%;
+	grid-row: auto;
+	grid-column: auto;
 }
 #nhid{
 	font-family: segoe ui light;
@@ -168,10 +159,21 @@ html {
 	margin: 0;
 	color: #000;
 }
-#service-list{
-	font-family: gadugi;
-	font-size: 15px;
-	color: #000;
+#l-id{
+	font-family: segoe ui light;
+	font-size: 16px;
+	color: #fff;
+}
+.conposl{
+	margin: 5em;
+}
+/*the boxes*/
+#box_id{
+	width: 200px;
+	height: 150px;
+	background: #ffa800;
+	margin: 0em;
+	padding: 0;
 }
 
 
@@ -179,9 +181,34 @@ html {
 /*Section 4 | Giving Rena Pralors contacts*/
 .section4{
 	width: 100%;
-	height: 600px;
 	margin-top: 150px;
-	background: url("Rena Images/section4bg.jpg");
+	background: #ffa800;
+}
+.section4 div {
+	width: 250px;
+	height: 150px;
+	margin: 2em;
+	background-color: #910010;
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	box-shadow: 3px 3px 29px rgba(0,0,0,0.7);
+	-webkit-box-shadow: 3px 3px 29px rgba(0,0,0,0.7);
+	-moz-box-shadow: 3px 3px 29px rgba(0,0,0,0.7); 
+}
+#numh{
+	font-family: segoe ui light, century gothic;
+	font-size: 25px;
+	margin-top: 5px;
+	padding: 0;
+	color: #fff;
+}
+#pn-id{
+	font-family: segoe ui light;
+	font-size: 14;
+	color: #fff;
+	padding: 0;
+	margin-top: 5px;
 }
 #np-id2{
 	font-family: segoe ui light;
@@ -190,38 +217,39 @@ html {
 	padding: 0;
 	margin: 0;
 }
-.tableposer{
-	margin-left: 70%;
-	margin-top: 5%;
-}
-.headerplacer{
-	margin-left: 65%;
-	padding-top: 10%;
-}
-.btn-placer{
-	margin-left: 75%;
-	margin-top: 3%;
-}
 
 
 /*---------section five code | where we are*/
 
 .section5{
-	background: url("Rena Images/section5bg.jpg");
+	background: url("Rena Images/earth.jpg");
+	background-position: -5;
 	width: 100%;
 	height: 600px;
-	margin-top: 320px;
+	margin-top: 200px;
 }
 #nl-id{
 	font-family: segoe ui;
 	font-size: 14px;
 	color: #000;
 }
-.location-poser{
-	margin-left: 60%;
-	padding-top: 10%;
-	margin-right: 10px;
+#np-idw{
+	font-family: segoe ui light;
+	font-size: 15px;
+	color: #000;
+	padding: 0;
+	margin: 0;
 }
+.poser{
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	margin-top: 100px;
+}
+
+
+
+
 
 /*section 6 | share and follow us*/
 .section6{
@@ -233,6 +261,18 @@ html {
 	-webkit-box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.7);
 	-moz-box-shadow: 1px 3px 19px 1px rgba(0,0,0,0.7);
 }
+.section6 img{
+	width: 50px;
+	height: 50px;
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	margin: 1em;
+}
+
+
+
+
 
 /*Frome here is the author page css*/
 .more-on-div{
@@ -330,11 +370,10 @@ html {
 }
 /*spr line*/
 .pos-1{
-	width: 100%;
-	position: relative;
-	top: 11%;
-}
-.pos-2{
+	display: inline-grid;
+	grid-row: auto;
+	grid-column: auto;
+	margin: 2em;
 }
 .all-info{
 	margin-top: 100px;
