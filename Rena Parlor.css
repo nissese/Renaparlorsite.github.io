@@ -221,7 +221,7 @@ html {
 
 /*---------section five code | where we are*/
 
-.section5{
+#section5{
 	background: url("Rena Images/earth.jpg");
 	background-position: -5;
 	width: 100%;
